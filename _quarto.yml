@@ -1,0 +1,29 @@
+project:
+  type: website
+
+website:
+  title: "Rosie Griffiths PhD"
+
+  navbar:
+    title: "Rosie Griffiths PhD"
+    right:
+      - DataViz.qmd
+      - Projects.qmd
+      - Research.qmd
+      - icon: github
+        href: https://github.com/Rosie23
+      - icon: twitter
+        href: https://twitter.com/Rosie_Griffiths
+      - icon: linkedin
+        href: https://linkedin.com/in/rosie-griffiths
+
+title-block-banner: images/sea-banner.png
+
+format:
+  html:
+    theme: sea.scss
+    #css: styles.css
+    toc: true
+
+editor: source
+

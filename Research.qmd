@@ -1,0 +1,11 @@
+---
+title: "Research"
+---
+
+<h2> My PhD </h2>
+
+I completed my PhD in Stem Cell Research at the University of Manchester where we were interested in making cartilage from stem cells to treat osteoarthritis.
+
+Here I undertook a <a class='hyperlink' href="https://doi.org/10.1038/s41598-020-61734-4"> study</a> using large RNA-seq datasets we aimed to elucidate mechanisms at which stem cells become cartilage.
+
+{{< video https://youtu.be/bW0mrekvoqI title="Stem Cell Therapy for Osteoarthritis">}}

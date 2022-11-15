@@ -1,0 +1,50 @@
+---
+title: "Home"
+format:
+  html:
+    css: css/index.css
+---
+
+<body>
+
+<div class="grid-container">
+  <div class="item-a">
+  <button class="btn" onclick="window.location='DataViz.html';">DataViz</button>
+  </div>
+  <div class="item-b">
+  <button class="btn" onclick="window.location='Projects.html';">Projects</button>
+  </div>
+  <div class="item-c">
+  <button class="btn" onclick="window.location='Research.html';">Research</button>
+  </div>
+  <div class="item-img">
+  <img class="bio_pic" src="images/me_giant_crop.png" alt="Image of me being a giant!"/>
+  </div>
+  <div class="item-d">
+  <button class="btn" onclick="window.location='posts/neuroshiny/index.html';">Shiny</button>
+  </div>
+  <div class="item-e">
+  <button class="btn" onclick="window.location='posts/daidipper/index.html';">Robotics</button>
+  </div>
+  <div class="item-f">
+  <button class="btn" onclick="window.location='Projects.html';">Blog</button>
+  </div>
+</div>
+
+<section class="logos">
+
+<a class='hyperlink' href="https://twitter.com/Rosie_Griffiths" target="_blank" rel="noopener noreferrer">{{< fa brands twitter size=2x >}}</a> <a class='hyperlink' href="https://github.com/Rosie23" target="_blank" rel="noopener noreferrer">{{< fa brands github size=2x >}}</a> <a class='hyperlink' href="https://linkedin.com/in/rosie-griffiths" target="_blank" rel="noopener noreferrer">{{< fa brands linkedin size=2x >}}</a>
+
+</section>
+
+<h2>About Me</h2>
+
+<p>
+
+Passionate about science and programming. Did a PhD in Stem Cell research where I first used R to unravel mechanisms by which stem cells can become cartilage. Have since become hooked on the possibilities of the R-verse.
+
+When I'm not at my laptop, I'll be paddle boarding with the dolphins off the coast of West Wales.
+
+</p>
+
+</body>

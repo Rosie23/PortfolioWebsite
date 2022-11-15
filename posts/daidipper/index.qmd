@@ -1,0 +1,116 @@
+---
+title: "DaiDipper"
+subtitle: "Automated staining machine to help cancer diagnosis"
+categories: [robotics, code, arduino]
+image: "fuji.JPG"
+format:
+  html: 
+    css: index.css
+---
+
+<body onload="document.getElementById('defaultOpen').click();">
+
+<div class="tab">
+  <button class="tablinks active" onclick="openTab(event, 'Version 1')" id="defaultOpen">Version 1</button>
+  <button class="tablinks" onclick="openTab(event, 'Version 2')">Version 2</button>
+</div>
+
+<div id="Version 2" class="tabcontent">
+  <h2>DaiDipper V2 - Raspberry Pi & Python </h2>
+  <p></p> 
+</div>
+
+
+<div id="Version 1" class="tabcontent">
+<h2>DaiDipper V1 - Arduino </h2>
+
+<div class="card">
+<h2> Motivation </h2> 
+Cancer incidence and mortality rates in Africa are increasing, in collaboration with Africa Cancer Trust (Registered Charity 1189665) we aimed to build a low-budget immunostaining machine to aid in cancer diagnostics; the <bold class="emph">DaiDipper</bold>.
+
+Automated staining machines have been around for a while however they have a hefty price tag. We hope by making a cheap accessible ease of use automated staining machine we could aid in cancer diagnostics in poorly funded labs.
+</div>
+
+<div class="row">
+  <div class="column">
+  <img class="blog-photo" src="fuji1.JPG" />
+  </div>
+  <div class="column">
+  <img class="blog-photo" src="fuji2.JPG" />
+  </div>
+  <div class="column">
+  <img class="blog-photo" src="fuji3.JPG" />
+  </div>
+  <div class="column">
+  <img class="blog-photo" src="fuji4.JPG" />
+  </div>
+</div>
+
+<div class="card">
+<h2>The Properties of the DaiDipper: </h2>
+<div class="grid-container">
+  <div class="item-logo1"> {{< fa dollar-sign size=1x >}} </div>
+  <div class="item-word1"> <p class="emph"> Cheap </p> </div>
+  <div class="item-desc1"> We aimed to have a total cost \<£100 </div>
+
+  <div class="item-logo2"> {{< fa lock-open size=1x >}} </div>
+  <div class="item-word2"> <p class="emph"> Open-access </p> </div>
+  <div class="item-desc2"> All code and instructions to build on yourself will be published </div>
+  
+  <div class="item-logo3"> {{< fa earth-africa size=1x >}} </div>
+  <div class="item-word3"> <p class="emph"> Accessible </p> </div>
+  <div class="item-desc3"> All components should be easily accessible </div>
+  
+  <div class="item-logo4"> {{< fa face-laugh-beam size=1x >}} </div>
+  <div class="item-word4"> <p class="emph"> Ease of use </p> </div>
+  <div class="item-desc4"> No expertise knowledge required </div>
+
+</div>
+</div>
+
+<div class="row">
+  <div class="column">
+  <img class="blog-photo" src="daidipper1.JPG" />
+  </div>
+  <div class="column">
+  <img class="blog-photo" src="daidipper2.JPG" />
+  </div>
+  <div class="column">
+  <img class="blog-photo" src="daidipper3.JPG" />
+  </div>
+  <div class="column">
+  <img class="blog-photo" src="daidipper4.png" />
+  </div>
+</div>
+
+<div class="card">
+<h2> Components </h2>
+The first version of the DaiDipper was built using Arduino. It consists of;
+
+```{r, echo=FALSE}
+components <- read.csv("components.csv")
+total <- paste0("£",sum(components$Price))
+components$Price <- paste0("£",components$Price)
+knitr::kable(components)
+```
+
+For this beta type the total cost is only <bold class="emph">`r total`</bold>. The case is 3D printed using a model on <a class='hyperlink emph' href="https://www.thingiverse.com/thing:2995020"> Thingiverse</a>.
+
+</div>
+</div>
+
+<script>
+function openTab(evt, tabName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(tabName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>

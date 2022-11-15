@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "Research.html",
+    "href": "Research.html",
+    "title": "Research",
+    "section": "",
+    "text": "My PhD\n\nI completed my PhD in Stem Cell Research at the University of Manchester where we were interested in making cartilage from stem cells to treat osteoarthritis.\nHere I undertook a  study using large RNA-seq datasets we aimed to elucidate mechanisms at which stem cells become cartilage."
+  },
+  {
+    "objectID": "posts/daidipper/index.html",
+    "href": "posts/daidipper/index.html",
+    "title": "DaiDipper",
+    "section": "",
+    "text": "Version 1 Version 2\n\n\n\nDaiDipper V2 - Raspberry Pi & Python\n\n\n\n\n\n\nDaiDipper V1 - Arduino\n\n\n\nMotivation\n\nCancer incidence and mortality rates in Africa are increasing, in collaboration with Africa Cancer Trust (Registered Charity 1189665) we aimed to build a low-budget immunostaining machine to aid in cancer diagnostics; the DaiDipper.\nAutomated staining machines have been around for a while however they have a hefty price tag. We hope by making a cheap accessible ease of use automated staining machine we could aid in cancer diagnostics in poorly funded labs.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Properties of the DaiDipper:\n\n\n\n\n\n\n\nCheap\n\n\n\nWe aimed to have a total cost <£100\n\n\n\n\n\n\nOpen-access\n\n\n\nAll code and instructions to build on yourself will be published\n\n\n\n\n\n\nAccessible\n\n\n\nAll components should be easily accessible\n\n\n\n\n\n\nEase of use\n\n\n\nNo expertise knowledge required\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComponents\n\nThe first version of the DaiDipper was built using Arduino. It consists of;\n\n\n\n\n\nComponent\nPrice\nShop\n\n\n\n\nUNO R3\n£10\nBanggood\n\n\nCNC Shield\n£4\nBanggood\n\n\nA4988 Stepper Motor Drivers x2\n£2\nBanggood\n\n\nNema17 Stepper Motors x2\n£15\nBanggood\n\n\n2004 LCD Smart Display Controller\n£14\nAmazon\n\n\n\n\n\nFor this beta type the total cost is only £45. The case is 3D printed using a model on  Thingiverse."
+  },
+  {
+    "objectID": "posts/neuroshiny/index.html",
+    "href": "posts/neuroshiny/index.html",
+    "title": "NeuroShiny",
+    "section": "",
+    "text": "About the app\n\n\n\nMotivation\n\nAt the University of Edinburgh I was tasked with making a 3D stem cell model of the thalamus to aid in studying root causes of Autism Spectrum Disorders.\nDuring my research I was constantly downloading, manipulating and making visualizations of different gene expression datasets in order to discover markers of the thalamus.\nI thought to myself wouldn’t it be useful if there was one website where I could easily select a gene of interest and see how it’s expression changes in all these different datasets. I could see how it’s expression changes in different species, time-points and different cell models (3D vs. 2D) and thus; NeuroShiny was created."
+  },
+  {
+    "objectID": "Projects.html",
+    "href": "Projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nDaiDipper\n\n\nAutomated staining machine to help cancer diagnosis\n\n\n\n\n\n\n\n\n\n\n\n\n\nNeuroShiny\n\n\nShiny app to explore development transcriptomics\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "DataViz\n\n\nProjects\n\n\nResearch\n\n\n\n\n\nShiny\n\n\nRobotics\n\n\nBlog\n\n\n\n  \n\n\nAbout Me\n\n\nPassionate about science and programming. Did a PhD in Stem Cell research where I first used R to unravel mechanisms by which stem cells can become cartilage. Have since become hooked on the possibilities of the R-verse.\nWhen I’m not at my laptop, I’ll be paddle boarding with the dolphins off the coast of West Wales."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I’m passionate about science and big data.\nI completed a PhD in Stem Cell Research at the University of Manchester."
+  },
+  {
+    "objectID": "DataViz.html",
+    "href": "DataViz.html",
+    "title": "DataViz",
+    "section": "",
+    "text": "TidyTuesday Plots\n\n\nSeries of plots made with  ggplot2  for the weekly  #TidyTuesday  challenge\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1/4\n\n\n\n\n\n2/4\n\n\n\n\n\n3/4\n\n\n\n\n\n4/4"
+  }
+]
