@@ -15,8 +15,15 @@
 
 .grid-container {
   display: grid;
+  align-items: center;
+  justify-items: center;
   grid-template-columns: [1] 10% [2] auto [3] 10% [4];
   grid-template-rows: [1] 10% [2] auto [3] 10% [4];
+}
+
+.row-border{
+    border-bottom: 2px solid gray;
+    grid-column: 1 / 5; /* this code makes the row stretch to entire width of the container */
 }
 
 .item-a {
@@ -78,6 +85,7 @@
   margin-right: auto;
   width: 80%;
   padding: 6px;
+  border-radius: 12px;
 }
 
 .fa {

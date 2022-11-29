@@ -1,0 +1,53 @@
+@article{griffiths2020transcription,
+  title={The transcription factor-microRNA regulatory network during hESC-chondrogenesis},
+  author={Griffiths, Rosie and Woods, Steven and Cheng, Aixin and Wang, Ping and Griffiths-Jones, Sam and Ronshaugen, Matthew and Kimber, Susan J},
+  journal={Scientific reports},
+  volume={10},
+  number={1},
+  pages={1--16},
+  year={2020},
+  publisher={Nature Publishing Group}
+}
+
+@article{campbell2013caveolin,
+  title={Caveolin-1 in renal cell carcinoma promotes tumour cell invasion, and in co-operation with pERK predicts metastases in patients with clinically confined disease},
+  author={Campbell, Lee and Al-Jayyoussi, Ghaith and Gutteridge, Robert and Gumbleton, Nigel and Griffiths, Rosie and Gumbleton, Simon and Smith, Mathew W and Griffiths, David FR and Gumbleton, Mark},
+  journal={Journal of translational medicine},
+  volume={11},
+  number={1},
+  pages={1--14},
+  year={2013},
+  publisher={BioMed Central}
+}
+
+@article{chan2020cerebral,
+  title={Cerebral organoids as tools to identify the developmental roots of autism},
+  author={Chan, Wai Kit and Griffiths, Rosie and Price, David J and Mason, John O},
+  journal={Molecular Autism},
+  volume={11},
+  number={1},
+  pages={1--14},
+  year={2020},
+  publisher={BioMed Central}
+}
+
+@article{mclean2018community,
+  title={A community-based public engagement with health experiment: using English for speakers of other languages (ESOL) classes to empower immigrant communities with science},
+  author={Mclean, Indira and Rushton, Marianne and Griffiths, Rosie and Lizio, Maria Giovanna and Dawson, Emily and Cruickshank, Sheena},
+  journal={Research for All},
+  volume={2},
+  number={1},
+  pages={131--142},
+  year={2018},
+  publisher={UCL IOE Press}
+}
+
+@article{chan2021using,
+  title={Using organoids to study human brain development and evolution},
+  author={Chan, Wai-Kit and Fetit, Rana and Griffiths, Rosie and Marshall, Helen and Mason, John O and Price, David J},
+  journal={Developmental neurobiology},
+  volume={81},
+  number={5},
+  pages={608--622},
+  year={2021}
+}

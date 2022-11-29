@@ -6,6 +6,10 @@ title: "Research"
 
 I completed my PhD in Stem Cell Research at the University of Manchester where we were interested in making cartilage from stem cells to treat osteoarthritis.
 
-Here I undertook a <a class='hyperlink' href="https://doi.org/10.1038/s41598-020-61734-4"> study</a> using large RNA-seq datasets we aimed to elucidate mechanisms at which stem cells become cartilage.
+Here I undertook a <a class='hyperlink' href="https://doi.org/10.1038/s41598-020-61734-4"> study</a> using large RNA-seq datasets we aimed to elucidate mechanisms at which stem cells become cartilage. 
 
 {{< video https://youtu.be/bW0mrekvoqI title="Stem Cell Therapy for Osteoarthritis">}}
+
+<h2>  Post-doctoral Research Associate </h2>
+
+After my PhD I took a position at the University of Edinburgh where I was tasked with making a stem cell model of the human thalamus to study the causes of Autism Spectrum Disorders.

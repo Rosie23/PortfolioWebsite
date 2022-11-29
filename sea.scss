@@ -30,12 +30,13 @@ $red:     #ff7851 !default;
 $orange:  #f58d51 !default;
 $yellow:  #ffce67 !default;
 $green:   #B9D7A0 !default;
-$teal:    #20c997 !default;
 $cyan:    #6cc3d5 !default;
 $tan: #D7BEA0 !default;
+$lilac: #A2A0D7 !default;
+$teal:  #A0D5D7 !default;
 
 $primary:       $seablue !default;
-$secondary:     $pink !default;
+$secondary:     $salmon !default;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
@@ -60,12 +61,13 @@ $border-radius-sm:            .3rem !default;
 // Fonts
 
 // stylelint-disable-next-line value-keyword-case
-$headings-font-family:        Sono, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$headings-font-family:        Poiret One, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
 $headings-color:              $white !default;
+
 
 $body-font-family:        Poppins, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif !default;
 
-$button-font-family: Monofett, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$button-font-family: Lobster, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
 
 // Tables
 
@@ -76,7 +78,7 @@ $table-bg-scale:              0 !default;
 // Dropdowns
 
 $dropdown-link-hover-color:         $white !default;
-$dropdown-link-hover-bg:            $secondary !default;
+$dropdown-link-hover-bg:            $primary !default;
 
 // Navbar
 $navbar-dark-color:                 $black !default;
@@ -126,8 +128,10 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Sono" !default;
   @import url($web-font-path);
 }
 
-@import url(https://fonts.googleapis.com/css?family=Monofett);
+@import url(https://fonts.googleapis.com/css?family=Bungee+Inline);
 @import url(https://fonts.googleapis.com/css?family=Poppins);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
 
 
 // Navbar
@@ -141,7 +145,7 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Sono" !default;
 
 .navbar .nav-item.active .nav-link,
 .navbar .nav-item:hover .nav-link {
-    color: $secondary;
+    color: $primary;
 }
 
 .bg-dark {
@@ -171,13 +175,13 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Sono" !default;
   border-radius: 12px;
   font-size: 45px;
   background-color: $bluebody;
-  color: $secondary;
+  color: $primary;
   transition-duration: 0.4s;
 }
 
 .btn:hover {
   background-color: $bluebody;
-  color: $seablue;
+  color: $secondary;
 }
 
 // Forms
@@ -196,7 +200,21 @@ body{
 
 .hyperlink {
   font-weight: 600;
+  color: $primary;
+}
+
+.hyperlink:hover{
   color: $secondary;
+}
+
+.hyperlink-dark {
+  font-weight: 600;
+  color: $primary;
+}
+
+.hyperlink-dark:hover{
+  font-weight: 600;
+  color: $white;
 }
 
 // Navs
@@ -271,7 +289,6 @@ mark {
 
 h2 {
   color: $black;
-  font-family: Sono;
   font-weight: 900;
 }
 
@@ -280,7 +297,9 @@ h2 {
   background-color: $salmon;
   border-radius: 10px;
   padding: 5px 10px 5px;
-  margin: 20px;
+  margin: 20px; 
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
 }
 
 
@@ -304,11 +323,11 @@ h2 {
 }
 
 .tab button:hover {
-  background-color: $salmon;
+  background-color: $secondary;
 }
 
 .tab button.active {
-  background-color: $salmon;
+  background-color: $secondary;
 }
 
 .tabcontent {
