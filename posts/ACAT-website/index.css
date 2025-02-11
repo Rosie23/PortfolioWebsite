@@ -14,6 +14,14 @@
 }
 
 
+.blog-photo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  width: 100%;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: [1] 10% [2] 10% [3] auto [4];

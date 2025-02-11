@@ -1,7 +1,8 @@
 ---
 title: "About"
 ---
+I'm passionate about science, big data, and innovative problem-solving. With a PhD in Stem Cell Research from the University of Manchester, I've transitioned into the world of data science, where I bridge the gap between research and technology.
 
-I'm passionate about science and big data.
+Currently, I'm a Senior Data Solutions Engineer at Atorus Research, specializing in OpenVal and leveraging my expertise in R to develop powerful data-driven solutions. While R is my go-to language, I love exploring and learning new programming languages to expand my skill set.
 
-I completed a PhD in Stem Cell Research at the University of Manchester.
+Welcome to my space, where I share my work, insights, and projects at the intersection of data science and research! 🚀

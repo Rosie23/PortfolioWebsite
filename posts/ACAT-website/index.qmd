@@ -1,0 +1,73 @@
+---
+title: "ACAT Website"
+subtitle: "Building a Charity Website"
+categories: [shiny, code]
+image: "ACAT-logo.svg"
+format:
+  html:
+    css: index.css
+---
+
+::: card
+<h2>Building the ACAT Website: AI Did the Hard Work, I Took the Credit</h2>
+
+When I set out to create a website for <a href="https://africacanceraction.org" target="_blank">Africa Cancer Action Trust (ACAT)</a>, I had no idea how much of a hassle it would be. My first attempts with WordPress editors were a nightmare—constantly losing data, breaking layouts, and having to start over. After hours of frustration, I decided to ditch WordPress and dive into my happy place, coding.
+:::
+
+<a href="https://africacanceraction.org" target="_blank" rel="noopener noreferrer"><img src="acat.png" class="blog-photo hyperlink"/></a>
+
+::: card
+<h3>Finding the Right Template</h3>
+
+I didn’t want to waste time designing from scratch, so I hunted for a template suited for a charity website. After browsing [HTML5 UP](https://html5up.net) and [Theme Wagon](https://themewagon.com), I used ChatGPT to compare options and suggest the best one. Eventually, I found a clean, simple, and adaptable template that fit perfectly.
+:::
+
+::: card
+<h3>ChatGPT as My Web Assistant</h3>
+
+Once I had the foundation, ChatGPT helped me tweak and improve it—whether refining content, adjusting layouts, or troubleshooting issues.
+
+<h4>Writing Text Blurbs</h4>
+
+ChatGPT was great at generating short, engaging blurbs. Whether it was section descriptions, headlines, or calls to action, it provided a strong starting point that I could fine-tune.
+
+<h4>Formatting Suggestions</h4>
+
+It also helped optimise formatting, suggesting better content structure for readability and navigation. ChatGPT made it easier to spot layout issues and streamline the page flow.
+
+<h4>Automating the Publications Section</h4>
+
+For the publications section, I realised I could just upload my files, and ChatGPT would extract the titles, authors, and abstracts, then generate a clean HTML section.
+
+<h4>Debugging Broken Code</h4>
+
+No coding project is complete without breaking something. After missing a closing `<div>` tag, I completely messed up my layout. Copying the code into ChatGPT, it quickly spotted the mistake and provided a fix.
+:::
+
+::: card
+<h3>My Coding Setup</h3>
+
+I used **Visual Studio Code (VSC)** with key extensions like **SFTP** for quick server updates and **Live Server** to preview changes instantly. This setup made coding and testing smooth and efficient.
+
+<h3>The Importance of Basic Coding Knowledge</h3>
+
+While ChatGPT was helpful, knowing some coding basics made a big difference. It often generated repetitive code—duplicating JavaScript across multiple pages or overusing styling. Spotting these inefficiencies, I asked ChatGPT to consolidate scripts into a single file or create reusable components, making my code much cleaner and easier to maintain.
+::: 
+
+::: card
+<h3>Optimising for SEO with ChatGPT</h3>
+
+A great site isn’t enough if no one can find it. ChatGPT gave me SEO tips—like optimising meta descriptions, structuring headings correctly, improving load speed, and using relevant keywords. It even generated code snippets for sitemaps and meta tags, making it easy to implement SEO best practices.
+::: 
+
+::: card
+<h3>The Fun and Satisfaction of Building a Website in a Weekend</h3>
+
+Despite the challenges, building this website was surprisingly fun. Once I got into the groove, it became an exciting challenge rather than a struggle. Best of all, I built the entire site in just a weekend! Seeing it come together piece by piece was incredibly satisfying.
+
+
+If you're struggling with web development, my advice is: experiment, use available tools, and don't stress perfection. Sometimes, a mix of pre-made templates and AI-powered assistance is all you need to turn frustration into success.
+
+(And yes, of course, ChatGPT also wrote this blog post for me!)
+:::
+

@@ -22,6 +22,7 @@ $blue:    #007bff !default;
 $seablue: #698fbb !default;
 $paleblue:#cedcf2 !default;
 $bluebody: #a0b9d7 !default;
+$subtlegrey: #e0e6ed !default;
 $indigo:  #ef62f6 !default;
 $purple:  #6f42c1 !default;
 $pink:    #eeb5f5 !default;
@@ -162,6 +163,20 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Sono" !default;
   color: $white;
 }
 
+.blog-photo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  width: 100%;
+  transition: 0.3s;
+}
+
+.blog-photo:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px); 
+}
+
 // Images
 
 .right {
@@ -294,13 +309,23 @@ h2 {
 
 .card{
   color: $black;
-  background-color: $salmon;
+  background-color: $subtlegrey;
   border-radius: 10px;
   padding: 5px 10px 5px;
-  margin: 20px; 
+  margin: 30px 0; 
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
+  overflow: hidden; /* Prevent scrollbar and ensure box fits text */
+  max-width: fit-content; /* Adjust width to fit content */
 }
+
+.card:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px); 
+}
+
+
+
 
 
 //Tab

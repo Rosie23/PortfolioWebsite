@@ -6,28 +6,28 @@ format:
 ---
 
 <body>
-
 <div class="grid-container">
   <div class="item-a row-border">
-  <button class="btn" onclick="window.location='DataViz.html';">DataViz</button>
+  <button class="btn" onclick="window.location.href='DataViz.html';">DataViz</button>
   </div>
   <div class="item-b row-border">
-  <button class="btn" onclick="window.location='Projects.html';">Projects</button>
+  <button class="btn" onclick="window.location.href='Projects.html';">Projects</button>
   </div>
   <div class="item-c row-border">
-  <button class="btn" onclick="window.location='Research.html';">Research</button>
+  <button class="btn" onclick="window.location.href='Research.html';">Research</button>
   </div>
-  <div class="item-img">
+  <div class="item-img bio_pic-container">
   <img class="bio_pic" src="images/me_giant.JPG" alt="Image of me being a giant!"/>
+  <div class="bio_text">No, I’m not actually a giant… or am I?</div>
   </div>
   <div class="item-d row-border">
-  <button class="btn" onclick="window.location='posts/neuroshiny/index.html';">Shiny</button>
+  <button class="btn" onclick="window.location.href='posts/neuroshiny/index.html';">Shiny</button>
   </div>
   <div class="item-e row-border">
-  <button class="btn" onclick="window.location='posts/daidipper/index.html';">Robotics</button>
+  <button class="btn" onclick="window.location.href='posts/daidipper/index.html';">Robotics</button>
   </div>
   <div class="item-f row-border">
-  <button class="btn" onclick="window.location='Projects.html';">Blog</button>
+  <button class="btn" onclick="window.location.href='posts/ACAT-website/index.html';">Website Dev</button>
   </div>
 </div>
 
@@ -37,14 +37,13 @@ format:
 
 </section>
 
+
+
+
+<div class="card">
 <h2>About Me</h2>
-
-<p>
-
-Passionate about science and programming. Did a PhD in Stem Cell research where I first used R to unravel mechanisms by which stem cells can become cartilage. Have since become hooked on the possibilities of the R-verse.
-
-When I'm not at my laptop, I'll be paddle boarding with the dolphins off the coast of West Wales.
-
-</p>
-
+<p>I'm passionate about <strong>science, big data, and innovative problem-solving</strong>. With a PhD in <strong>Stem Cell Research</strong> from the <em>University of Manchester</em>, I've transitioned into the world of data science, where I bridge the gap between research and technology.</p>
+<p>Currently, I'm a <strong>Senior Data Solutions Engineer</strong> at <strong>Atorus Research</strong>, where I work on the <a href="https://openval.atorusresearch.com" target="_blank">OpenVal</a> project—<em>a repository of validated packages that are carefully curated and cataloged</em>. While <strong>R</strong> is my go-to language, I love exploring and learning <em>new programming languages</em> to expand my skill set.</p>
+<p>Welcome to my space, where I share my work, insights, and projects at the intersection of <strong>data science and research</strong>! 🚀</p>
+</div>
 </body>
