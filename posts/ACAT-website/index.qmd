@@ -1,7 +1,7 @@
 ---
 title: "ACAT Website"
 subtitle: "Building a Charity Website"
-categories: [shiny, code]
+categories: [html, code]
 image: "ACAT-logo.svg"
 format:
   html:

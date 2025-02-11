@@ -42,8 +42,8 @@ format:
 
 <div class="card">
 <h2>About Me</h2>
-<p>I'm passionate about <strong>science, big data, and innovative problem-solving</strong>. With a PhD in <strong>Stem Cell Research</strong> from the <em>University of Manchester</em>, I've transitioned into the world of data science, where I bridge the gap between research and technology.</p>
+<p>I'm passionate about <strong>science and big data</strong>. With a PhD in <strong>Stem Cell Research</strong> from the <em>University of Manchester</em>, I've transitioned into the world of data science.</p>
 <p>Currently, I'm a <strong>Senior Data Solutions Engineer</strong> at <strong>Atorus Research</strong>, where I work on the <a href="https://openval.atorusresearch.com" target="_blank">OpenVal</a> project—<em>a repository of validated packages that are carefully curated and cataloged</em>. While <strong>R</strong> is my go-to language, I love exploring and learning <em>new programming languages</em> to expand my skill set.</p>
-<p>Welcome to my space, where I share my work, insights, and projects at the intersection of <strong>data science and research</strong>! 🚀</p>
+<p>Welcome to my space, where I share my <strong>coding adventures</strong>—from tinkering with Raspberry Pi and robotics to building websites and exploring new technologies! 🚀</p>
 </div>
 </body>
